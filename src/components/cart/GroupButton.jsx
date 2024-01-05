@@ -23,7 +23,7 @@ const GroupedButton = () => {
 
   return (
     <Component>
-      <StyledButton onClick={() => handleDecrement()} disabled={counter == 0}>
+      <StyledButton onClick={() => handleDecrement()} disabled={counter === 0}>
         -
       </StyledButton>
       <Button disabled>{counter}</Button>
