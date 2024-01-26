@@ -38,7 +38,6 @@ function Bannerr() {
       keyBoardControl={true}
       draggable={false}
       containerClass="carousel-container"
-      // showDots={true}
       autoPlay={true}
       autoPlaySpeed={10000}
     >
